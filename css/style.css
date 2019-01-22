@@ -1,0 +1,23 @@
+/* CSS Document */
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+/* semi-random CSS - just delete it and work on your own code */
+a{ /*display: block; margin-top: 1000px;margin-bottom: 1000px;*/
+	font-size: 2rem;
+}
+
+.green{
+	background-color: green;
+}
+
+a.test{
+	font-weight: bold;
+	font-size: 4rem;
+}

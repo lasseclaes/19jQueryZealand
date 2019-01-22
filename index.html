@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Demo</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1><a href="https://docs.google.com/document/d/1Sw0feE1jCCTcHygHmvuJS-7ZncMcd5wWejioTL9jnEk/edit#heading=h.hpm5vd56nao">Lektionsplan</a></h1>
+    <p><a class="green" href="http://jquery.com/">jQuery</a></p>
+
+    <!-- scripts are placed before the </body>-tag -->
+    <!-- first we load the jQuery library from Googles hosted libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- for working offline / fallback to the same, selfhosted jQuery library (downloaded from http://jquery.com/)  -->
+    <script>
+      window.jQuery || document.write('<script src="js/jquery-3.3.1.min.js"><\/script>');
+    </script>
+
+    <!-- now we can write jQuery or JavaScript in our own files -->
+    <script src="js/demo-scripts.js"></script>
+
+</body>
+</html>
